@@ -1,7 +1,7 @@
 // You can import Ionicons from @expo/vector-icons if you use Expo or
 // react-native-vector-icons/Ionicons otherwise.
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import { createBottomTabNavigator} from 'react-navigation';
+import { createBottomTabNavigator } from 'react-navigation';
 
 export default createBottomTabNavigator(
   {
