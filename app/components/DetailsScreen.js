@@ -64,26 +64,26 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    color: '#6B52AE',
   },
   header: {
-    color: '#6B52AE',
+    color: '#2F97C1',
     fontSize: 40,
   },
   buttonsContainer: {
     flex: 1,
     flexDirection: 'column',
-    justifyContent: 'center',
+    justifyContent: 'space-around',
     alignItems: 'center',
   },
-  buttonsContainer: {
-    paddingTop: 30,
+  buttonContainer: {
   },
   button: {
-    backgroundColor: '#2F97C1',
+    backgroundColor: '#6B52AE',
+    width: 250,
     padding: 10,
   },
   buttonText: {
+    alignSelf: 'center',
     color: '#FFF',
   },
 })
